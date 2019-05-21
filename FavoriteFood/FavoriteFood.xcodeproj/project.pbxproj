@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C8DDF745C2107D80D2C4E65 /* Pods_FavoriteFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE95E7DC5ACDB126C13F2DF /* Pods_FavoriteFood.framework */; };
 		A303530A22942A63004A6D5D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A303530922942A62004A6D5D /* background.png */; };
 		A32E8B7C22938137004857A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E8B7B22938137004857A0 /* AppDelegate.swift */; };
 		A32E8B7E22938137004857A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E8B7D22938137004857A0 /* ViewController.swift */; };
@@ -15,6 +16,19 @@
 		A32E8B8622938139004857A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32E8B8422938139004857A0 /* LaunchScreen.storyboard */; };
 		A32E8B9122938139004857A0 /* FavoriteFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E8B9022938139004857A0 /* FavoriteFoodTests.swift */; };
 		A32E8B9C22938139004857A0 /* FavoriteFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E8B9B22938139004857A0 /* FavoriteFoodUITests.swift */; };
+		A32E915C229438D400833900 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E915B229438D400833900 /* FoodCell.swift */; };
+		A32E915E229439EF00833900 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E915D229439EF00833900 /* Cart.swift */; };
+		A32E916022943A2000833900 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E915F22943A2000833900 /* Restaurant.swift */; };
+		A32E916222943A9200833900 /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E916122943A9200833900 /* CartItemCell.swift */; };
+		A32E916422943B3500833900 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E916322943B3500833900 /* CartItem.swift */; };
+		A32E916622943C9D00833900 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E916522943C9D00833900 /* RestaurantCell.swift */; };
+		A32E916822943CE200833900 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E916722943CE200833900 /* User.swift */; };
+		A32E916A22943D8D00833900 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E916922943D8D00833900 /* CartViewController.swift */; };
+		A32E916C22943E5100833900 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E916B22943E5100833900 /* FoodDetailViewController.swift */; };
+		A32E916E2294400900833900 /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E916D2294400900833900 /* FoodsViewController.swift */; };
+		A32E9170229440A500833900 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E916F229440A500833900 /* Order.swift */; };
+		A32E91742294418500833900 /* RestaurantListingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E91732294418500833900 /* RestaurantListingTableViewController.swift */; };
+		A3FF1CA02294337900B38050 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FF1C9F2294337900B38050 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CE95E7DC5ACDB126C13F2DF /* Pods_FavoriteFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FavoriteFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		202209A15523CE6065535E89 /* Pods-FavoriteFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoriteFood.debug.xcconfig"; path = "Target Support Files/Pods-FavoriteFood/Pods-FavoriteFood.debug.xcconfig"; sourceTree = "<group>"; };
 		A303530922942A62004A6D5D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		A32E8B7822938137004857A0 /* FavoriteFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32E8B7B22938137004857A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,20 @@
 		A32E8B9722938139004857A0 /* FavoriteFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoriteFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32E8B9B22938139004857A0 /* FavoriteFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFoodUITests.swift; sourceTree = "<group>"; };
 		A32E8B9D22938139004857A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32E915B229438D400833900 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		A32E915D229439EF00833900 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		A32E915F22943A2000833900 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		A32E916122943A9200833900 /* CartItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
+		A32E916322943B3500833900 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		A32E916522943C9D00833900 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		A32E916722943CE200833900 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A32E916922943D8D00833900 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		A32E916B22943E5100833900 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		A32E916D2294400900833900 /* FoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
+		A32E916F229440A500833900 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A32E91732294418500833900 /* RestaurantListingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListingTableViewController.swift; sourceTree = "<group>"; };
+		A3FF1C9F2294337900B38050 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		DF2E1C5225C315DC1D059A17 /* Pods-FavoriteFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoriteFood.release.xcconfig"; path = "Target Support Files/Pods-FavoriteFood/Pods-FavoriteFood.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8DDF745C2107D80D2C4E65 /* Pods_FavoriteFood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4015740619355677E768FED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CE95E7DC5ACDB126C13F2DF /* Pods_FavoriteFood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A303530B22942A66004A6D5D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +130,8 @@
 				A32E8B8F22938139004857A0 /* FavoriteFoodTests */,
 				A32E8B9A22938139004857A0 /* FavoriteFoodUITests */,
 				A32E8B7922938137004857A0 /* Products */,
+				C747C0828B1AAFF5E2284518 /* Pods */,
+				4015740619355677E768FED5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +148,7 @@
 		A32E8B7A22938137004857A0 /* FavoriteFood */ = {
 			isa = PBXGroup;
 			children = (
+				A32E916122943A9200833900 /* CartItemCell.swift */,
 				A303530B22942A66004A6D5D /* Resources */,
 				A32E8B7B22938137004857A0 /* AppDelegate.swift */,
 				A32E8B7D22938137004857A0 /* ViewController.swift */,
@@ -114,6 +156,18 @@
 				A32E8B8222938139004857A0 /* Assets.xcassets */,
 				A32E8B8422938139004857A0 /* LaunchScreen.storyboard */,
 				A32E8B8722938139004857A0 /* Info.plist */,
+				A3FF1C9F2294337900B38050 /* Food.swift */,
+				A32E915B229438D400833900 /* FoodCell.swift */,
+				A32E915D229439EF00833900 /* Cart.swift */,
+				A32E915F22943A2000833900 /* Restaurant.swift */,
+				A32E916322943B3500833900 /* CartItem.swift */,
+				A32E916522943C9D00833900 /* RestaurantCell.swift */,
+				A32E916722943CE200833900 /* User.swift */,
+				A32E916922943D8D00833900 /* CartViewController.swift */,
+				A32E916B22943E5100833900 /* FoodDetailViewController.swift */,
+				A32E916D2294400900833900 /* FoodsViewController.swift */,
+				A32E916F229440A500833900 /* Order.swift */,
+				A32E91732294418500833900 /* RestaurantListingTableViewController.swift */,
 			);
 			path = FavoriteFood;
 			sourceTree = "<group>";
@@ -136,6 +190,15 @@
 			path = FavoriteFoodUITests;
 			sourceTree = "<group>";
 		};
+		C747C0828B1AAFF5E2284518 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				202209A15523CE6065535E89 /* Pods-FavoriteFood.debug.xcconfig */,
+				DF2E1C5225C315DC1D059A17 /* Pods-FavoriteFood.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A32E8BA022938139004857A0 /* Build configuration list for PBXNativeTarget "FavoriteFood" */;
 			buildPhases = (
+				009CECE9F8346AF2407DB8B0 /* [CP] Check Pods Manifest.lock */,
 				A32E8B7422938137004857A0 /* Sources */,
 				A32E8B7522938137004857A0 /* Frameworks */,
 				A32E8B7622938137004857A0 /* Resources */,
+				C409A3CB66D9FB551037FE6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,13 +328,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		009CECE9F8346AF2407DB8B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FavoriteFood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C409A3CB66D9FB551037FE6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FavoriteFood/Pods-FavoriteFood-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FavoriteFood/Pods-FavoriteFood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A32E8B7422938137004857A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32E916622943C9D00833900 /* RestaurantCell.swift in Sources */,
 				A32E8B7E22938137004857A0 /* ViewController.swift in Sources */,
+				A32E915C229438D400833900 /* FoodCell.swift in Sources */,
+				A32E916C22943E5100833900 /* FoodDetailViewController.swift in Sources */,
+				A32E916422943B3500833900 /* CartItem.swift in Sources */,
+				A32E916022943A2000833900 /* Restaurant.swift in Sources */,
+				A32E9170229440A500833900 /* Order.swift in Sources */,
+				A32E915E229439EF00833900 /* Cart.swift in Sources */,
+				A32E916222943A9200833900 /* CartItemCell.swift in Sources */,
+				A32E916A22943D8D00833900 /* CartViewController.swift in Sources */,
+				A32E91742294418500833900 /* RestaurantListingTableViewController.swift in Sources */,
+				A32E916E2294400900833900 /* FoodsViewController.swift in Sources */,
 				A32E8B7C22938137004857A0 /* AppDelegate.swift in Sources */,
+				A32E916822943CE200833900 /* User.swift in Sources */,
+				A3FF1CA02294337900B38050 /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,10 +585,32 @@
 		};
 		A32E8BA122938139004857A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202209A15523CE6065535E89 /* Pods-FavoriteFood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKShareKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Stripe\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+				);
 				INFOPLIST_FILE = FavoriteFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,10 +624,12 @@
 		};
 		A32E8BA222938139004857A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2E1C5225C315DC1D059A17 /* Pods-FavoriteFood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FavoriteFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
